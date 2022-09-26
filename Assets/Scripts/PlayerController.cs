@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float JumpForce;
+    public int health = 5;
     public bool isGrounded;
     public LayerMask ground;
     private Rigidbody2D RB;

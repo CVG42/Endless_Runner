@@ -223,7 +223,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &111822693
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +271,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &111822696
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -425,7 +423,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &349230517
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,7 +472,6 @@ MonoBehaviour:
   speed: 2
   begin: 19
   end: -20
-  inverse: 1
 --- !u!61 &349230520
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -602,7 +598,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &372385945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -703,7 +698,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &379476629
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -804,7 +798,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &384603465
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -905,7 +898,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &411333063
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -958,6 +950,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &504113007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 504113009}
+  - component: {fileID: 504113008}
+  m_Layer: 0
+  m_Name: EnemySpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &504113008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504113007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493fb6b7bb2f61b43b14bf5abce5b14c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: {fileID: 2899545439207982405, guid: d55922cbf5f1a8349a6c5d88d5ceac8d, type: 3}
+  startTime: 2
+  decreaseTime: 0.05
+  minTime: 0.7
+--- !u!4 &504113009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504113007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.49, y: -3.64, z: -0.29348505}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,7 +1130,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &519729346
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1191,7 +1230,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &536185911
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1292,7 +1330,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &575151945
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1393,7 +1430,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &680804054
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1494,7 +1530,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &761121659
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1647,7 +1682,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &937144717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,7 +1730,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &937144720
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1797,7 +1830,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &964970361
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1950,7 +1982,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &1006105493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,7 +2109,6 @@ MonoBehaviour:
   speed: 2
   begin: 20.13
   end: -20
-  inverse: 1
 --- !u!1 &1008784113
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,7 +2142,6 @@ MonoBehaviour:
   speed: 3
   begin: 17.38
   end: -10.9
-  inverse: 1
 --- !u!212 &1008784115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2228,7 +2257,6 @@ MonoBehaviour:
   speed: 2
   begin: 12
   end: -14
-  inverse: 1
 --- !u!212 &1048369821
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2381,7 +2409,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &1065713590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,7 +2457,6 @@ MonoBehaviour:
   speed: 2
   begin: 10.5
   end: -14
-  inverse: 1
 --- !u!212 &1065713593
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2531,7 +2557,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &1164925638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2684,7 +2709,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &1207481272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,7 +2792,6 @@ MonoBehaviour:
   speed: 2
   begin: 20.13
   end: -20
-  inverse: 1
 --- !u!61 &1246027372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2895,7 +2918,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &1259911476
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3022,7 +3044,7 @@ GameObject:
   - component: {fileID: 1598847937}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3040,6 +3062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: 20
+  health: 5
   isGrounded: 0
   ground:
     serializedVersion: 2
@@ -3226,7 +3249,6 @@ MonoBehaviour:
   speed: 2
   begin: 10.5
   end: -14
-  inverse: 1
 --- !u!212 &1665467644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3379,7 +3401,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &1794884398
 GameObject:
   m_ObjectHideFlags: 0
@@ -3428,7 +3449,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &1794884401
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3581,7 +3601,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!1 &2060779453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3630,7 +3649,6 @@ MonoBehaviour:
   speed: 2
   begin: 20
   end: -20.7
-  inverse: 1
 --- !u!212 &2060779456
 SpriteRenderer:
   m_ObjectHideFlags: 0
