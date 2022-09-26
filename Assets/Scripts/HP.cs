@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HP : MonoBehaviour
 {
@@ -15,22 +16,11 @@ public class HP : MonoBehaviour
     public void Damage(float _dmg)
     {
         currentHP = Mathf.Clamp(currentHP - _dmg, 0, StartingHP);
-        if (currentHP > 0)
+        if (currentHP <= 0)
         {
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        else
-        {
-
-        }
-    }
-
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            Damage(1);
-        }
+        
     }
 
     public void extraHP(float _value)
