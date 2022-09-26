@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class frogObs : MonoBehaviour
+public class burger : MonoBehaviour
 {
     public float speed;
-    public int dmg = 1;
+    public float valueHP = 1;
 
     void Start()
     {
         
     }
 
-    
+    // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector2.left * speed * Time.deltaTime);
@@ -24,11 +24,10 @@ public class frogObs : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.tag == "Player")
         {
-            collision.GetComponent<HP>().Damage(dmg);
-            Destroy(gameObject);
+            collision.GetComponent<HP>().extraHP(valueHP);
+            gameObject.SetActive(false);
         }
     }
 }
-
